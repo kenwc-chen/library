@@ -1,0 +1,163 @@
+列出資料夾 PATH
+磁碟區序號為 E0E9-8C42
+C:.
+|   .gitattributes
+|   .gitignore
+|   HELP.md
+|   mvnw
+|   mvnw.cmd
+|   ouput.txt
+|   pom.xml
+|   
++---.mvn
+|   \---wrapper
+|           maven-wrapper.properties
+|           
++---.vscode
+|       NEWLY_CREATED_BY_SPRING_INITIALIZR
+|       
++---src
+|   +---main
+|   |   +---java
+|   |   |   \---com
+|   |   |       \---example
+|   |   |           \---demo
+|   |   |               |   DemoApplication.java
+|   |   |               |   
+|   |   |               +---config
+|   |   |               |       SecurityConfig.java
+|   |   |               |       
+|   |   |               +---controller
+|   |   |               |       BorrowController.java
+|   |   |               |       LoginController.java
+|   |   |               |       ReturnController.java
+|   |   |               |       UserController.java
+|   |   |               |       
+|   |   |               +---dto
+|   |   |               |       BookDto.java
+|   |   |               |       BorrowRequestDto.java
+|   |   |               |       LoginRequestDto.java
+|   |   |               |       ReturnRequestDto.java
+|   |   |               |       UserDto.java
+|   |   |               |       
+|   |   |               +---exception
+|   |   |               |       GlobalExceptionHandler.java
+|   |   |               |       
+|   |   |               +---model
+|   |   |               |       Book.java
+|   |   |               |       User.java
+|   |   |               |       
+|   |   |               +---repository
+|   |   |               |       BookRepository.java
+|   |   |               |       InventoryRepository.java
+|   |   |               |       UserRepository.java
+|   |   |               |       
+|   |   |               +---security
+|   |   |               |       JwtAuthenticationFilter.java
+|   |   |               |       JwtTokenProvider.java
+|   |   |               |       
+|   |   |               \---service
+|   |   |                       AuthService.java
+|   |   |                       BorrowService.java
+|   |   |                       ReturnService.java
+|   |   |                       UserService.java
+|   |   |                       
+|   |   \---resources
+|   |       |   application.properties
+|   |       |   
+|   |       +---db
+|   |       |       schema.sql
+|   |       |       stored_procedures.sql
+|   |       |       
+|   |       +---static
+|   |       \---templates
+|   \---test
+|       \---java
+|           \---com
+|               \---example
+|                   \---demo
+|                           DemoApplicationTests.java
+|                           
+\---target
+    |   demo-0.0.1-SNAPSHOT.jar
+    |   demo-0.0.1-SNAPSHOT.jar.original
+    |   
+    +---classes
+    |   |   application.properties
+    |   |   
+    |   +---com
+    |   |   \---example
+    |   |       \---demo
+    |   |           |   DemoApplication.class
+    |   |           |   
+    |   |           +---config
+    |   |           |       SecurityConfig.class
+    |   |           |       
+    |   |           +---controller
+    |   |           |       BorrowController.class
+    |   |           |       LoginController.class
+    |   |           |       ReturnController.class
+    |   |           |       UserController.class
+    |   |           |       
+    |   |           +---dto
+    |   |           |       BookDto.class
+    |   |           |       BorrowRequestDto.class
+    |   |           |       LoginRequestDto.class
+    |   |           |       ReturnRequestDto.class
+    |   |           |       UserDto.class
+    |   |           |       
+    |   |           +---exception
+    |   |           |       GlobalExceptionHandler.class
+    |   |           |       
+    |   |           +---model
+    |   |           |       Book.class
+    |   |           |       User.class
+    |   |           |       
+    |   |           +---repository
+    |   |           |       BookRepository.class
+    |   |           |       InventoryRepository.class
+    |   |           |       UserRepository.class
+    |   |           |       
+    |   |           +---security
+    |   |           |       JwtAuthenticationFilter.class
+    |   |           |       JwtTokenProvider.class
+    |   |           |       
+    |   |           \---service
+    |   |                   AuthService.class
+    |   |                   BorrowService.class
+    |   |                   ReturnService.class
+    |   |                   UserService.class
+    |   |                   
+    |   \---db
+    |           schema.sql
+    |           stored_procedures.sql
+    |           
+    +---generated-sources
+    |   \---annotations
+    +---generated-test-sources
+    |   \---test-annotations
+    +---maven-archiver
+    |       pom.properties
+    |       
+    +---maven-status
+    |   \---maven-compiler-plugin
+    |       +---compile
+    |       |   \---default-compile
+    |       |           createdFiles.lst
+    |       |           inputFiles.lst
+    |       |           
+    |       \---testCompile
+    |           \---default-testCompile
+    |                   createdFiles.lst
+    |                   inputFiles.lst
+    |                   
+    +---surefire-reports
+    |       com.example.demo.DemoApplicationTests.txt
+    |       TEST-com.example.demo.DemoApplicationTests.xml
+    |       
+    \---test-classes
+        \---com
+            \---example
+                \---demo
+                        DemoApplicationTests.class
+                        
