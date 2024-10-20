@@ -45,7 +45,7 @@
     spring.datasource.username=your_username
     spring.datasource.password=your_password
     ```
-  **需手動執行資料庫存儲過程：**
+  **第一次執行應用程式需手動執行資料庫存儲過程：**
     在"library"資料庫中 執行demo/src/main/resources/db/stored_procedures.sql 中的指令
 
 
