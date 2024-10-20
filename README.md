@@ -42,7 +42,7 @@
     在 `src/main/resources/application.properties` 中配置 MySQL 資料庫連接：
 
     ```properties
-    spring.datasource.url=jdbc:mysql://localhost:3306/library_db
+    spring.datasource.url=jdbc:mysql://localhost:3306/library
     spring.datasource.username=your_username
     spring.datasource.password=your_password
     ```
